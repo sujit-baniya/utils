@@ -1,3 +1,3 @@
-module github.com/NikoMalik/low-level-functions
+module github.com/sujit-baniya/utils
 
 go 1.22.5

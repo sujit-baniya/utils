@@ -7,7 +7,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/NikoMalik/low-level-functions/constants"
+	"github.com/sujit-baniya/utils/constants"
 )
 
 type ErrorSizeUnmatch struct {
@@ -25,7 +25,6 @@ func (err *ErrorSizeUnmatch) Error() string {
 }
 
 func String(b []byte) string {
-
 	return unsafe.String(unsafe.SliceData(b), len(b))
 }
 
